@@ -1,0 +1,21 @@
+<ion-view title="Formations">
+    <ion-content>
+        <h2>Formations de : {{idEtablissement}}</h2>
+        <ion-list>
+            <ion-item ng-repeat="f in formations">
+
+
+                <p>{{f.diplome}}</p>
+                <p>{{f.nomFormation}}</p>
+                <p>{{f.nomAbrege}}</p>
+
+                <h2>Durée:<strong>{{f.duree}} ans</strong></h2>
+
+            </ion-item>
+
+        </ion-list>
+    </ion-content>
+
+
+
+</ion-view>
